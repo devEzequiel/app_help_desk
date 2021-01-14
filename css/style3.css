@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Bahnschrift SemiBold';
+
+}
+body.rd{
+	background-image: linear-gradient(to top, #add8e6, #f0f0f0);
+}
+#navbar{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 9%;
+	box-shadow: 1px 1px 11px;
+	vertical-align: center;
+	text-align: left;
+	background-image:linear-gradient(to right,#dc3545,#5a0c14);
+	padding-top:2px; 
+}
+#navbar-menu{
+	text-decoration: none;
+	color: #000000;
+	background-color: none;
+	color:#ffffff;
+	font-size: 20px;
+	font-family: arial;
+}
+p#test{
+	display: block;
+	font-family: "ink free";
+	font-weight: bolder;
+	margin-left:10%; 
+	font-size: 20px;
+	background: -webkit-linear-gradient(#dc3545,#5a0c14);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#img{
+	padding:7px 0 0 15px;
+}
+.container3{
+	margin-top: 93px; 
+	width: 80%;
+	position: absolute;
+	clear: both;
+	margin-left: 46%;
+}
+#col-left2{
+	position: relative;
+	float: right;
+	width: 100%; 
+	height: 10px;
+	margin-top: -115px;
+	padding-bottom: 10px;
+}
+#btn{
+	display: block;
+	color:#ffffff;
+	background-image:linear-gradient(to right,#dc3545,#5a0c14);
+	width: 20%;
+	margin-left: 35%;
+	border: 0px solid red;
+	font-family: arial;
+}
+button#btn:hover{
+	background-image:linear-gradient(to right,#dc3545,#38080d);
+}
+.form{
+	width: 75%;
+	height: 74.5%;
+	background-color: red;
+	margin: auto 10% auto 10%;
+	padding-left: 3%;
+	padding-top: 1%;
+	position: absolute;
+}
+p#espaco{
+	padding-bottom: 1%;
+}
+input, select, textarea{
+	border:1px solid #808080;
+	outline: 0;
+
+}
+input#name{
+	width: 95%;
+	height: 7%;
+	padding: 1%;
+}
+div#valor{
+	padding-top: 1%; 
+}
+select#valor{
+	padding: 1%;
+	font-size: 15px;
+}
+div#descricao{
+	padding-top: 1%;
+}
+textarea#comen{
+	padding: 1%;
+	width: 95%;
+	height: 237px;
+}
+div.container{
+	margin-top: 10px; 
+	width: 91.4%;
+	position: absolute;
+	clear: both;
+	margin-right: 0;
+}
+#btn-left{
+	margin: auto auto auto 16%;
+	position: relative;
+	width: 30%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image:linear-gradient(to right,#dc3545,#5a0c14);
+	font-family: arial;
+}
+a#btn-right:link{
+	position: relative;
+	margin-left: 1%;
+	border: 1px solid black;
+	padding: 12.9px 12% 11.7px 12%;
+	font-size: 8pt;
+	text-decoration: none;
+	color: black;
+	background-color: blue;
+	box-shadow: 1px 1px 1px;
+	background-image:linear-gradient(to left,#add8e6, #f0f0f0);
+	font-family: arial;
+	font-weight: bold;
+
+}
+
+
