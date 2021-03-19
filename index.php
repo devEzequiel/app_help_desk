@@ -11,7 +11,7 @@
 	<form class="form" action="scripts/valida_login.php" method="POST">
 		<div class="container">
 			<div class="container-t">
-				<h2 class="title">PAYM A TECH</h2>
+				<h2 class="title">Help Desk</h2>
 				<p>LOGIN</p>
 
 			</div>
