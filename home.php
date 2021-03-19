@@ -8,7 +8,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>App Help Desk</title>
+    <title>Help Desk</title>
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <link rel="stylesheet" href="css/style2.css">
   </head>
@@ -18,7 +18,7 @@
     <nav id="navbar">
       <a id="navbar-menu" href="#">
         <img src="_img/logo.png" width="30" height="30" id="img" alt="">
-        PAYM A TECH Desk
+        Help Desk
       </a>
       <div class="container3">
           <div id="col-left2">
