@@ -1,12 +1,24 @@
 <?php
 	
+	define('ENVIRONMENT', 'localhost');
+	//define('ENVIRONMENT', 'production');
+	
 	//script para coneectar ao banco de dados
+	if (ENVIRONMENT === 'localhost'){
 
-	define('host', 'localhost');
-	define('username', 'root');
-	define('pwd', null);
-	define('dbname', 'help');
+		define('host', 'localhost');
+		define('username', 'root');
+		define('pwd', null);
+		define('dbname', 'help');
 
+	} else if (ENVIRONMENT === 'production'){ 
+
+		define('host', '');
+		define('username', '');
+		define('pwd', '');
+		define('dbname', '');
+
+	}
 
 	$conn = mysqli_connect(host, username, pwd, dbname);
 
