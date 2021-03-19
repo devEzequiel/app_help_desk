@@ -23,7 +23,7 @@
     <nav id="navbar">
       <a id="navbar-menu" href="home.php">
         <img src="_img/logo.png" width="30" height="30" id="img" alt="">
-        PAYM A TECH Desk
+        Help Desk
       </a>
       <div class="container3">
           <div id="col-left2">
